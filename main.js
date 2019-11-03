@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('#btn').click(function (e) {
         e.preventDefault();
-        var api = "http://api.openweathermap.org/data/2.5/weather?q=";
+        var api = "https://api.openweathermap.org/data/2.5/weather?q=";
         var city = $("#city").val();
         var apiKey = "&APPID=b914ec995310887460d12af3441ca278&units=metric";
         var url = api + city + apiKey;
